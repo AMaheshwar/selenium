@@ -1,0 +1,16 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Wikipedia Test" verbose="3" parallel="false">
+<test name="wiki in Firefox">
+<!--   
+<parameter name="browser" value="FF"></parameter>
+-->
+<classes>
+
+<class name= "com.selenium.session4.WebDriverTest"/>
+</classes>
+</test>
+
+
+</suite>
